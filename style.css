@@ -1,0 +1,34 @@
+body {
+    /* background-color: rgb(108, 175, 175); */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+h1 {
+    color: rgb(156, 213, 221);
+    font-family: "Comic Sans MS";
+    margin-left: 3em;
+}
+p {
+    color: white;
+    font-family: "Comic Sans MS";
+    margin-left: 5em;
+    max-width: 480px;
+    padding: 2em;
+    background-color: rgba(49, 49, 49, 0.8);
+}
+a {
+    color: white;
+    font-family: "Comic Sans MS";
+}
+img {
+    margin-left: 5em;
+}
+canvas {
+    max-width: windowWidth;
+    max-height: windowHeight;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+
+}
